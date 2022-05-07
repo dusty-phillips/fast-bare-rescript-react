@@ -1,5 +1,5 @@
 
 @react.component
 let make = () => {
-  <div> {React.string("Hello World")}</div>
+  <div> {React.string("Demo File")}</div>
 }

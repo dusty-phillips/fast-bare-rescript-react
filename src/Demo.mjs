@@ -3,7 +3,7 @@
 import * as React from "react";
 
 function Demo(Props) {
-  return React.createElement("div", undefined, "Hello World");
+  return React.createElement("div", undefined, "Demo File");
 }
 
 var make = Demo;
