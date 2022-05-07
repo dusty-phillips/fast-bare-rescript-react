@@ -1,18 +1,19 @@
 {
-  "name": "rescript-project-template",
+  "name": "fast-bare-rescript-react",
   "version": "0.0.1",
   "sources": {
     "dir" : "src",
     "subdirs" : true
   },
   "package-specs": {
-    "module": "commonjs",
+    "module": "es6-global",
     "in-source": true
   },
-  "suffix": ".bs.js",
+  "suffix": ".mjs",
   "bs-dependencies": [
   ],
   "warnings": {
     "error" : "+101"
   },
+  "reason": {"react-jsx": 3}
 }

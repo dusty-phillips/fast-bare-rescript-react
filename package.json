@@ -1,10 +1,12 @@
 {
-  "name": "rescript-project-template",
+  "name": "fast-bare-rescript-react",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "build": "rescript",
-    "clean": "rescript clean -with-deps",
-    "start": "rescript build -w"
+    "build:deps": "rescript build -with-deps",
+    "build:watch": "rescript build -w",
+    "clean": "rescript clean -with-deps"
   },
   "keywords": [
     "rescript"
