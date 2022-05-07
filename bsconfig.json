@@ -11,6 +11,7 @@
   },
   "suffix": ".mjs",
   "bs-dependencies": [
+      "@rescript/react"
   ],
   "warnings": {
     "error" : "+101"
