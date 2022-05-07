@@ -1,1 +1,5 @@
-Js.log("Hello, World!")
+
+@react.component
+let make = () => {
+  <div> {React.string("Hello World")}</div>
+}
